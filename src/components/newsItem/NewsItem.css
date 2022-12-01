@@ -1,0 +1,42 @@
+.articleCard {
+    width: 100%;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-rows: 8fr 2fr 3fr 1fr 2fr;
+}
+
+.articleCard img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.articleCard h2 {
+    background-color: whitesmoke;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.articleText {
+    background-color: whitesmoke;
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+.date {
+    font-size: 1.6rem;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.articleCard a {
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: rgb(51, 49, 49);
+    padding: 1.5rem;
+    margin: 2rem auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: fit-content;
+    border-radius: 5px;
+}

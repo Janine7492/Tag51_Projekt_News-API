@@ -1,0 +1,28 @@
+.newsListWrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 85%;
+    margin: 5rem auto;
+}
+
+.inputSection {
+    display: grid;
+    gap: 10px;
+}
+
+.inputSection input,
+.inputSection button {
+    font-size: 1.5rem;
+    padding: 0.3rem 1rem;
+}
+
+.inputSection input {
+    background-color: whitesmoke;
+}
+
+.inputSection button {
+    background-color: dimgrey;
+    color: whitesmoke;
+    font-weight: bold;
+}
